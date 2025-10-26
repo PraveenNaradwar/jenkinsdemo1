@@ -8,7 +8,7 @@ pipeline{
         }
         stage('Extract Data'){
             steps{
-                bat " extraC:\\Users\\S\\AppData\\Local\\Programs\\Python\\Python313\\python.exect.py"
+                bat "C:\\Users\\S\\AppData\\Local\\Programs\\Python\\Python313\\python.exect.py"
             }
         }
 
