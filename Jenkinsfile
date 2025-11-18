@@ -9,9 +9,10 @@ pipeline{
                 checkout scm
             }
         }
-        stages('run extarct file'){
-            steps{
-                bat "${env.python} extact.py"
+        stage('Run extract file'){
+                steps{
+                    bat "${env.Python} extract.py"
+                }
             }
         }
     }
